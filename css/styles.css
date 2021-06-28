@@ -118,37 +118,21 @@ figcaption{
     background-color: white;
     color:rgb(86,86,86);
 }
-header{
+.header-nav{
     display:flex;
     background-color:black;
     height:50px;
     background-color:rgba(0, 0, 0, 0.8);
     width:100%;
+    justify-content:space-between;
 }
-.header-nav ul li{
-    display:inline-block;
-    list-style:none;
-    line-height: 50px;
-    padding:0 50px;
-    align-content: center;
-    font-size:15px;
-}
-.header-nav ul li a{
-    text-decoration:none;
+header a{
+    text-decoration: none;
+    justify-content:space-between;
     color: white;
     font-family: cantarell;
-    
-}
-.header-nav ul li a:hover{
-    text-decoration: underline;
-}
 
-.header-nav ul li a img{
-width:20px;
-height:20px;
-border-radius:100%;
 }
-
 .sidebar{
     border:1px solid gray;
     width:175px;
