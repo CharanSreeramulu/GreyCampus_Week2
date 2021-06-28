@@ -104,7 +104,7 @@ li a:hover{
 }
 figcaption{
         font-family: cantarell;
-        text-align: left;
+        text-align: center;
         font-size: 10px;
         color: #2971a7;
         font-weight: bold;
@@ -118,20 +118,22 @@ figcaption{
     background-color: white;
     color:rgb(86,86,86);
 }
-.header-nav{
+.header{
     display:flex;
-    background-color:black;
     height:50px;
     background-color:rgba(0, 0, 0, 0.8);
     width:100%;
     justify-content:space-between;
 }
-.header-nav a{
+.header a{
     text-decoration: none;
     justify-content:space-between;
     color: white;
     font-family: cantarell;
-
+    line-height:50px;
+}
+.header a:hover{
+    text-decoration: underline;
 }
 .sidebar{
     border:1px solid gray;
