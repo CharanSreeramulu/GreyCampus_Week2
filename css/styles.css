@@ -78,33 +78,19 @@ li a:hover{
     display:flex;
     background-color:lightgray;
     height:40px;
+    line-height: 40px;
+    margin: 0;
 }
-.navcls li{
-    display:inline-block;
-    background-color:lightgray;
-    justify-content:center;
-    align-content:center;
-    width:100px;
+.div2 a{
     text-decoration: none;
-    padding:0;
-    margin:0;
-}
-.navcls li a{
-    text-decoration:none;
-    background-color:lightgray;
-    justify-content:center;
-    color:rgb(48,48,48);
-    font-size:small;
+    color:black;
+    font-size: 12px;
     font-weight: bold;
-    padding:0;
-}
-.navcls li a:hover{
- text-decoration:underline;
-}
-.btn{
-    font-family: cantarell;
-}
 
+}
+.div2 a:hover{
+    text-decoration: underline;
+}
 .div3{
     display:grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
